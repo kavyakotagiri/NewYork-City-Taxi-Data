@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adf-dev-envi"
+        },
+        "AzureSqlDatabase_connectionString": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "AzureSqlDatabase1_password": {
+            "value": ""
+        },
+        "AzureBlobStorage1_connectionString": {
+            "value": ""
+        },
+        "AzureSqlDatabase2_password": {
+            "value": ""
+        },
+        "AzureSqlDatabase3_connectionString": {
+            "value": ""
+        },
+        "AzureDataLakeStorageGen2_accountKey": {
+            "value": ""
+        },
+        "LS_AzureSynapseAnalytics_connectionString": {
+            "value": ""
+        },
+        "ADLSGen2_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://blobstoragekk.dfs.core.windows.net/"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_server": {
+            "value": "kkdatabase.database.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_database": {
+            "value": "azuresqldb-kotagiri"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_userName": {
+            "value": "kkuser"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_server": {
+            "value": "kkdatabase.database.windows.net"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_database": {
+            "value": "azuresqldb-kotagiri"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_userName": {
+            "value": "kkuser"
+        },
+        "AzureDataLakeStorageGen2_properties_typeProperties_url": {
+            "value": "https://adlsgen2azure.dfs.core.windows.net/"
+        },
+        "ADLSGen2_properties_typeProperties_url": {
+            "value": "https://adlsgen2kkaccount.dfs.core.windows.net/"
+        }
+    }
+}
